@@ -3282,3 +3282,37 @@ input, select, textarea {
 	    27% { opacity: 0; width: 100%; }
 	    100% { opacity: 0; }
 	}
+
+/* skillz */
+
+#skills-container h3 {
+	
+}
+
+#skills-container {
+	display: flex;
+	justify-content: space-around;
+	color: #71787c;
+}
+
+.skillset {
+	text-align: center;	
+}
+
+.skillset ul li { 
+	font-size: .8em;
+	list-style-type: none; 
+	display: inline-block;
+	border-radius: 4px;
+	padding: 2px 6px;
+	background: #94989b;
+	color: #fff;
+	margin: 2px 0;
+}
+
+.skillset ul li:hover { 
+	opacity: .5;
+	background: #49bf9d;
+	color: #fff;
+}
+
